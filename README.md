@@ -6,11 +6,11 @@ EnvValidator is a lightweight Python library that helps validate environment var
 
 ## Features
 
-- Schema-Based Validation – Define expected environment variables and their types (string, int, bool, regex).
-- Automatic Fallback – If no .env file is found, it retrieves values from system environment variables.
-- Regex Support – Enforce custom formats (e.g., API keys, UUIDs).
-- Error Handling – Provides clear error messages when validation fails.
-- Lightweight & Fast – Minimal overhead with a simple API.
+- Schema-Based Validation - Define expected environment variables and their types (string, int, bool, regex).
+- Automatic Fallback - If no .env file is found, it retrieves values from system environment variables.
+- Regex Support - Enforce custom formats (e.g., API keys, UUIDs).
+- Error Handling - Provides clear error messages when validation fails.
+- Lightweight & Fast - Minimal overhead with a simple API.
 
 ---
 
