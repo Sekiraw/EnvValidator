@@ -8,6 +8,8 @@
 *.vcxproj
 *.vcxproj.filters
 
+venv/**
+
 dist/*
 build/*
 .vscode/*

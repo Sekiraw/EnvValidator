@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
+# Author: Qiyaya
 
 from setuptools import setup, Extension
 
@@ -6,20 +7,20 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 module = Extension(
-    "{ModuleName}",
-    sources=["main.c"],
+    "envvalidator",
+    sources=["main.cpp"],
 )
 
 setup(
-    name="{ModuleName}",
+    name="envvalidator",
     version="1.0.0",
-    description="{ModuleName} description",
+    description="envvalidator description",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="{Author}",
-    author_email="{AuthorEmail}",
-    url = 'https://github.com/{Author}/{RepoName}',
-    keywords=["USEFUL", "KEY", "WORDS"],
+    author="Qiyaya",
+    author_email="v2020.bohus.peter@gmail.com",
+    url = 'https://github.com/Sekiraw/Envvalidator',
+    keywords=["env", "validator", "validate", "environment"],
     license="Apache-2.0",
     classifiers=[
         "Development Status :: 4 - Beta",
