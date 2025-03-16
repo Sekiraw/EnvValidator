@@ -13,8 +13,8 @@ module = Extension(
 
 setup(
     name="envvalidator",
-    version="1.0.1",
-    description="envvalidator description",
+    version="1.0.2",
+    description="EnvValidator is a lightweight Python library that helps validate environment variables against a predefined schema.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Qiyaya",
